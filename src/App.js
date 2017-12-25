@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+var b = {
+  color: 'blue',
+  backgroundImage: 'url(' + 'https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png' + ')'
+};
+
 class App extends Component {
   //screen resize
   constructor(props){
@@ -32,12 +37,12 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" style={b}>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <p className="App-intro">
+        <p className="App-intro" >
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
