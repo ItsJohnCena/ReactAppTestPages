@@ -1,7 +1,7 @@
 {
   "name": "test-app",
   "version": "0.1.0",
-  "homepage": "http://kxg.space/",
+  "homepage": "https://gaoxk.github.io/ReactAppTestPages",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
