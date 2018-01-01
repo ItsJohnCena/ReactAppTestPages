@@ -1,7 +1,7 @@
 {
   "name": "test-app",
   "version": "0.1.0",
-  "homepage": "https://itsjohncena.github.io/ReactAppTestPages",
+  "homepage": "http://kxg.space/",
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
